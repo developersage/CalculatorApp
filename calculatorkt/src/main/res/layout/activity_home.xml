@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvInput"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:textSize="48sp"
+        android:maxLength="12"/>
+    <!-- row 1 -->
+    <LinearLayout
+        android:id="@+id/row_1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_clr"
+            style="@style/NumberButton.Blue"
+            android:text="@string/_all_clr"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/btn_neg"
+            style="@style/NumberButton.Blue"
+            android:text="@string/_neg"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/btn_percent"
+            style="@style/NumberButton.Blue"
+            android:text="@string/_percent"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/btn_div"
+            style="@style/NumberButton.Orange"
+            android:text="@string/_div"
+            android:textColor="#4E342E" />
+
+    </LinearLayout>
+
+    <!-- row 2 -->
+    <LinearLayout
+        android:id="@+id/row_2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_7"
+            style="@style/NumberButton"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/btn_8"
+            style="@style/NumberButton"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/NumberButton"
+            android:text="@string/_9" />
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/NumberButton.Orange"
+            android:text="@string/_add"
+            android:textColor="#4E342E" />
+
+    </LinearLayout>
+
+    <!-- row 3 -->
+    <LinearLayout
+        android:id="@+id/row_3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/NumberButton"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/btn_5"
+            style="@style/NumberButton"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/btn_6"
+            style="@style/NumberButton"
+            android:text="@string/_6" />
+
+        <Button
+            android:id="@+id/btn_sub"
+            style="@style/NumberButton.Orange"
+            android:text="@string/_sub"
+            android:textColor="#4E342E" />
+
+    </LinearLayout>
+
+    <!-- row 4 -->
+    <LinearLayout
+        android:id="@+id/row_4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/NumberButton"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/NumberButton"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/NumberButton"
+            android:text="@string/_3" />
+
+        <Button
+            android:id="@+id/btn_mul"
+            style="@style/NumberButton.Orange"
+            android:text="@string/_mul"
+            android:textColor="#4E342E" />
+
+    </LinearLayout>
+
+    <!-- row 5 -->
+    <LinearLayout
+        android:id="@+id/row_5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_0"
+            style="@style/NumberButton"
+            android:text="@string/_0"
+            android:layout_weight="2"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/btn_dot"
+            style="@style/NumberButton"
+            android:text="@string/_dot" />
+
+        <Button
+            android:id="@+id/btn_eql"
+            style="@style/NumberButton.Orange"
+            android:text="@string/_eql"
+            android:textColor="#4E342E" />
+
+    </LinearLayout>
+
+</LinearLayout>
